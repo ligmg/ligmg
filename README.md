@@ -1,6 +1,6 @@
 # LigMG (Large Irregular Graph MultiGrid)-- A distributed memory graph Laplacian solver for large irregular graphs
 
-From the paper "A Parallel Solver for Graph Laplacians".
+From the paper "A Parallel Solver for Graph Laplacians". Tristan Konolige and Jed Brown. 2018. In Proceedings of the Platform for Advanced Scientific Computing Conference (PASC '18). ACM, New York, NY, USA, Article 3, 11 pages. DOI: https://doi.org/10.1145/3218176.3218227 .
 
 
 ## Building
