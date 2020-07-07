@@ -8,7 +8,6 @@ old
 *.o
 bench_spmv
 *.map
-*.mtx
 output
 export
 *.h5
