@@ -52,6 +52,8 @@ configure_package_config_file(cmake/LIGMGConfig.cmake
   "${CMAKE_CURRENT_BINARY_DIR}/LIGMG/LIGMGConfig.cmake"
   INSTALL_DESTINATION "${ConfigPackageLocation}"
 )
+# copy find files to build directory
+configure_file(cmake/FindPETSc.cmake "${CMAKE_CURRENT_BINARY_DIR}/LIGMG/FindPETSc.cmake" COPYONLY)
 
 install(EXPORT LIGMGTargets
   FILE
@@ -68,6 +70,13 @@ install(
     ${ConfigPackageLocation}
   COMPONENT
     Devel
+)
+
+install(
+  FILES
+    cmake/FindPETSc.cmake
+  DESTINATION
+    ${ConfigPackageLocation}
 )
 
 # Example executable
