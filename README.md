@@ -13,6 +13,8 @@ This library uses a fork of CombBLAS available here: [https://github.com/tkonoli
 
 mxx can be found here: [https://github.com/patflick/mxx](https://github.com/patflick/mxx).
 
+PETSc can be found here: [https://petsc.org/release/](https://petsc.org/release/).
+
 ### Build script
 
 Running `./build.sh` will download and build dependencies and then build this package. PETSc will not be downloaded, so ensure that it is installed and `PETSC_DIR` and `PETSC_ARCH` are set. `build/bin` will contain the build executables.
